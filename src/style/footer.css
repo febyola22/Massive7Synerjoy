@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Londrina+Solid:wght@100;300;400;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-color: #143a52;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 80px;
+  height: 200px;
+}
+
+.sb-footer-below {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer img {
+  left: 10%;
+  transform: translate(-40%, 30%);
+  position: relative;
+}
+
+.sb-footer-copyright {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.sb-footer-links-div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 0;
+  right: 43px;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+
+.sb-footer-links {
+  text-align: left;
+}
+
+.sb-footer-links .text {
+  font-family: 'Londrina Solid', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: right;
+  margin: 110px 0;
+  margin-right: 60px;
+  margin-top: -110px;
+}
+
+.sb-footer-links-div > div {
+  margin-left: 5px;
+}
+
+.sb-footer-links-div div {
+  margin-right: 5px;
+}
+
+.sb-footer hr {
+  width: 55%;
+  margin-bottom: 0;
+  margin: -110px auto 0 auto;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    background-color: #143a52;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 170px;
+    height: 210px;
+  }
+
+  .icons {
+    font-size: 20px;
+  }
+
+  .sb-footer-links-div {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 43px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-right: 1px;
+  }
+
+  .sb-footer hr {
+    width: 50%;
+    text-align: center;
+    margin-top: -20px;
+  }
+
+  .sb-footer-copyright {
+    margin: 5px auto;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .footer img {
+    left: 10%;
+    transform: translate(220%, -120%);
+    position: relative;
+    width: 80px;
+    height: 70px;
+  }
+
+  .sb-footer-links .text {
+    font-family: 'Londrina Solid', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    margin: 50px 0;
+    margin-right: 10px;
+    margin-top: -50px;
+  }
+}

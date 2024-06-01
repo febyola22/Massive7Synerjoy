@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Londrina+Solid:wght@100;300;400;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.Mybg {
+  height: 100%;
+  background-image: url('../assets/bg2.png');
+  overflow-x: hidden;
+}
+
+.form-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  padding-left: 40px;
+}
+
+.form-box {
+  max-width: 800px;
+  padding: 40px;
+  margin-top: 90px;
+}
+
+.form-container .h3 {
+  font-family: 'Londrina Solid', sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  font-size: 64px;
+  color: #ffffff;
+}
+
+.form-box .p {
+  font-family: 'Londrina Solid', sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.form-group {
+  margin-top: 30px;
+}
+
+.form-group input {
+  width: 420px;
+  height: 45px;
+  background-color: #ffffff;
+  font-family: 'Londrina Solid', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.form-label {
+  font-family: 'Londrina Solid', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.form-box .input-group {
+  width: 420px;
+  height: 45px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.form-pass {
+  position: relative;
+}
+
+.input-group .form-control {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.form-pass span {
+  position: absolute;
+  top: 73%;
+  right: 320px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.btn-log {
+  width: 420px;
+  height: 45px;
+  background-color: #ffffff;
+  margin-top: 10px;
+}
+
+.form-text-center {
+  font-family: 'Londrina Solid', sans-serif;
+  font-weight: 100;
+  color: #efdcdc;
+  text-align: center;
+  margin-top: 10px;
+  width: 420px;
+  height: 45px;
+}
+
+.position-relative {
+  width: 420px;
+  color: #ffffff;
+}
+
+.divider-contenct-center {
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  background-color: #143a52;
+  font-size: 0.8rem;
+  font-weight: 500;
+  width: 45px;
+}
+
+.icon-google {
+  text-align: center;
+  margin-top: 10px;
+  width: 420px;
+  height: 35px;
+  font-size: 30px;
+}
+
+.Mybg {
+  background-image: url('../assets/bg2.png');
+  height: 200%;
+  overflow-x: hidden;
+}
+
+.form-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-name .form-label {
+  flex: 1;
+  margin-bottom: 8px;
+}
+
+.form-name input {
+  flex: 2;
+}

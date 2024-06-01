@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Londrina+Solid:wght@100;300;400;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  /* background: url('../assets/bg1.png'); */
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #e3eff3;
+  padding: 10px 20px;
+}
+
+.navbar-nav {
+  font-family: 'Londrina Solid', sans-serif;
+  font-weight: 350;
+  font-style: normal;
+}
+
+.navbar-nav .nav-link {
+  color: #143a52;
+  font-size: 24px;
+}
+/* 
+.px-3 .navbar {
+  position: fixed;
+} */
